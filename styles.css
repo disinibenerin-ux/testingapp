@@ -49,8 +49,8 @@ img {
 }
 
 .logo-image {
-  width: 138px;
-  height: 108px;
+  width: 80%;
+  height: 80%;
   object-fit: contain;
   margin-left: 41px;
   margin-right: 3px;
