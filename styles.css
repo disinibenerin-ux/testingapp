@@ -9,6 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
+  padding-top: 80px;
 }
 
 img {
@@ -19,10 +20,12 @@ img {
 .main-header {
   width: 100%;
   background-color: #172027;
-  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 .scrolled .main-header{
-    --background-color: #10058c;
+    background-color: #10058c;
 }
 
 .header-container {
@@ -49,8 +52,8 @@ img {
 }
 
 .logo-image {
-  width: 80%;
-  height: 80%;
+  width: auto;
+  height: 70px;
   object-fit: contain;
   margin-left: 41px;
   margin-right: 3px;
@@ -70,7 +73,7 @@ img {
 .nav-link {
   color: #fff;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
 }
@@ -156,7 +159,7 @@ nav {
     color: #ffffff;
     text-decoration: none;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     transition: color 0.3s ease;
     display: inline-block;
